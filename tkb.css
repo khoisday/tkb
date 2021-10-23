@@ -1,5 +1,5 @@
 body{
-	background-image: url("84248.png");
+	background-image: url("962d8c00b1889ce6088b6f6283f1725b.jpg");
 	background-size: 100%;
 	background-attachment: fixed;
 }
@@ -16,6 +16,7 @@ table, th,td{
 table{
 }
 th,td{
+	background-color:#916BBF;
 	font-family: UVN Saigon;
 	font-size: 150%;
 	/* padding: 13px; */
