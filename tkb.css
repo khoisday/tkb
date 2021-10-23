@@ -99,8 +99,8 @@ div:hover>.transition-container>.off{
 }
 td:hover.active1{
 	transition: .5s;
-	color: red;
-	border : 3px solid red;
+	color: #d650bb;
+	border : 3px solid #d650bb;
 	border-radius: 1px;
 }
 td.active1{
@@ -108,7 +108,7 @@ td.active1{
 	transition: .5s;
 }
 td:hover>.link{
-	color: red;
+	color: #d650bb;
 	font-weight: bold;
 	font-size: 110%;
 	transition: .5s;
