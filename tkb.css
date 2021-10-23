@@ -22,11 +22,11 @@ th,td{
 	/* padding: 13px; */
 }
 .col1{
-	background-color: rgb(61, 44, 141);
+	background-color: #12188e;
 	overflow: hidden;
 	width: 2em;
 	font-size: 150%;
-    color: rgb(201,150,204);
+    color: #9da0d3;
 }
 .active{
 	background-color: #916BBF;
@@ -35,10 +35,10 @@ th,td{
 	background-color: #916BBF;
 }
 th{
-	background-color: rgb(61, 44, 141);
+	background-color: #12188e;
 	font-family: UVN Saigon;
 	font-size: 150%;
-    color: rgb(201,150,204);
+    color: #9da0d3;
 }
 .tiet1{
 	position: relative;
