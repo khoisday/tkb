@@ -24,15 +24,20 @@ th,td{
 	background-color: rgb(61, 44, 141);
 	overflow: hidden;
 	width: 2em;
+	font-size: 150%;
+    color: rgb(201,150,204);
 }
 .active{
-	background-color: #D6EEEE;
+	background-color: #916BBF;
 }
 .active1{
-	background-color: #D7FFFF;
+	background-color: #916BBF;
 }
 th{
 	background-color: rgb(61, 44, 141);
+	font-family: UVN Saigon;
+	font-size: 150%;
+    color: rgb(201,150,204);
 }
 .tiet1{
 	position: relative;
