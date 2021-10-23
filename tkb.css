@@ -1,5 +1,5 @@
 body{
-	background-image: url("84248.png");
+	background-image: url("84247.png");
 	background-size: 100%;
 	background-attachment: fixed;
 }
@@ -21,7 +21,7 @@ th,td{
 	/* padding: 13px; */
 }
 .col1{
-	background-color: cornsilk;
+	background-color: rgb(61, 44, 141);
 	overflow: hidden;
 	width: 2em;
 }
@@ -32,7 +32,7 @@ th,td{
 	background-color: #D7FFFF;
 }
 th{
-	background-color: cornsilk;
+	background-color: rgb(61, 44, 141);
 }
 .tiet1{
 	position: relative;
