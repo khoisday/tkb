@@ -1,120 +1,181 @@
-body{
-	background-image: url("962d8c00b1889ce6088b6f6283f1725b.jpg");
-	background-size: 100%;
-	background-attachment: fixed;
-}
-html, body{
-	margin: 0;
-	padding: 10px 30px 15px 30px;
-}
-table, th,td{
-	border : 2px solid black;
-	border-spacing: 5px;
-	text-align: center;
-	border-radius: 5px;
-}
-table{
-}
-th,td{
-	background-color:#5158d6;
-	font-family: UVN Saigon;
-	font-size: 150%;
-	/* padding: 13px; */
-}
-.col1{
-	background-color: #293a99;
-	overflow: hidden;
-	width: 2em;
-	font-size: 150%;
-    color: #9da0d3;
-}
-.active{
-	background-color: #5158d6;
-}
-.active1{
-	background-color: #5158d6;
-}
-th{
-	background-color: #293a99;
-	font-family: UVN Saigon;
-	font-size: 150%;
-    color: #9da0d3;
-}
-.tiet1{
-	position: relative;
-	display: block;
-	width: 100%;
-}
-.col1{
-	height: 3em;
-}
-/* .tiet1>.on{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	transition: 1s;
-	opacity: 1;
-	text-align: center;
 
-}
-.tiet1>.off{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	transition: 1s;
-	opacity: 0;
-	text-align: center;
-} */
-/* .tiet1:hover>.on{
-    opacity: 0;
-    transition: 1s;
-}
-.tiet1:hover>.off{
-    opacity: 1;
-    transition: 1s;
-} */
-.transition-container{
-	text-align: center;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
-    width: 100%;
-}
-.transition-container>.transition-child{
-	position: absolute;
-	transition: opacity .5s;
-}
-div>.transition-container>.on{
-	opacity: 1;
-}
-div>.transition-container>.off{
-	opacity: 0;
-}
-div:hover>.transition-container>.on{
-	opacity: 0;
-}
-div:hover>.transition-container>.off{
-	opacity: 1;
-}
-td:hover.active1{
-	transition: .5s;
-	color: #d650bb;
-	border : 3px solid #d650bb;
-	border-radius: 1px;
-}
-td.active1{
-	word-wrap:break-word;
-	transition: .5s;
-}
-td:hover>.link{
-	color: #d650bb;
-	font-weight: bold;
-	font-size: 110%;
-	transition: .5s;
-}
-td>.link{
-	transition: .5s;
-	color: black;
-	text-decoration: none;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thời khóa biểu</title>
+	<link rel="stylesheet" type="text/css" href="tkb.css">
+</head>
+<body>
+	
+	<div style="width:20%;float:left;"> <a style ="text-align:center;color: #0f52a9;font-size: 150%;text-decoration:none;font-weight:bold;" href="index.html" target="_blank">Về trang chủ</a></div>
+	<div style="width:60%;text-align: center;font-weight:bold;font-family: UVN Banh Mi;font-size: 300%;float:left;">THỜI KHÓA BIỂU</div> </div>
+	<div style="width:20%;float:left;"></div>
+	<br>
+	<table style="background-color: white;margin:auto;">
+		<colgroup>
+			<col span="1" style="width: 14%;">
+			<col span="1" style="width: 10%;">
+			<col span="1" style="width: 10%;">
+			<col span="1" style="width: 10%;">
+			<col span="1" style="width: 10%;">
+			<col span="1" style="width: 10%;">
+			<col span="1" style="width: 10%;">
+			<col span="1" style="width: 10%;">
+		</colgroup>
+		<tr>
+			<th class="col1">Thời gian</th>
+			<th class="col2">Thứ Hai </th>
+			<th class="col3">Thứ Ba</th>
+			<th class="col4">Thứ Tư</th>
+			<th class="col5">Thứ Năm</th>
+			<th class="col6">Thứ Sáu</th>
+			<th class="col7">Thứ Bảy</th>
+			<th class="col8">Chủ Nhật</th>
+		</tr>
+		<tr>
+			<td class="col1">
+				<div class="tiet1">
+					<div class="transition-container">
+						<div class="transition-child on">Tiết 1</div>
+						<div class="transition-child off">12h50 - 13h40</div>						
+					</div>
+				</div>
+			</td>
+			<td class="active1" rowspan="2"><a href="https://meet.google.com/gqc-gzdf-qnp" target="_blank" class="link">Văn</a></td>
+			<td class="active1"><a href="https://meet.google.com/qsg-ppdn-qzv" target="_blank" class="link">Tin</a></td>
+			<td class="active1"><a href="https://meet.google.com/qsg-ppdn-qzv" target="_blank" class="link">Tin</a></td>
+			<td class="active1" rowspan="2"><a href="https://meet.google.com/yqa-dxom-mth" target="_blank" class="link">Toán</a></td>
+			<td class="active1"><a href="https://meet.google.com/gqc-gzdf-qnp" target="_blank" class="link">Văn</a></td>
+			<td class="active1" rowspan="2"><a href="https://meet.google.com/yqa-dxom-mth" target="_blank" class="link">Toán</a></td>
+			<td></td>	
+		</tr>
+		<tr>
+			<td class="col1 ">
+				<div class="tiet1">
+					<div class="transition-container">
+						<div class="transition-child on">Tiết 2</div>
+						<div class="transition-child off">13h45 - 14h35</div>						
+					</div>
+				</div>
+			</td>
+			<td class="active1"><a href="https://meet.google.com/gps-zzyp-wya" target="_blank" class="link">Văn</a></td>
+			<td class="active1"><a href="https://meet.google.com/jvy-ircd-huv" target="_blank" class="link">Anh</a></td>
+			<td class="active1"><a href="https://meet.google.com/xgz-ivrg-ycp" target="_blank" class="link">Anh</a></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="col1 ">
+				<div class="tiet1">
+					<div class="transition-container">
+						<div class="transition-child on">Tiết 3</div>
+						<div class="transition-child off">14h40 - 15h30</div>						
+					</div>
+				</div>
+			</td>
+			<td class="active1"><a href="https://meet.google.com/xgz-ivrg-ycp" target="_blank" class="link">Pháp</a></td>
+			<td class="active1"><a href="https://meet.google.com/nhm-vhfd-hck" target="_blank" class="link">Pháp</a></td>
+			<td class="active1"><a href="https://meet.google.com/msi-epmk-xin" target="_blank" class="link">Sử</a></td>
+			<td class="active1"><a href="https://meet.google.com/wsc-hhdc-ayb" target="_blank" class="link">Địa</a></td>
+			<td class="active1"><a href="https://meet.google.com/msi-epmk-xin" target="_blank" class="link">GDCD</a></td>
+			<td class="active1"><a href="https://meet.google.com/nhm-vhfd-hck" target="_blank" class="link">Hóa</a></td>
+			<td></td>
+
+
+		</tr>
+		<tr>
+			<td class="col1 ">
+				<div class="tiet1">
+					<div class="transition-container">
+						<div class="transition-child on">Tiết 4</div>
+						<div class="transition-child off">15h35 - 16h25</div>						
+					</div>
+				</div>
+			</td>
+			<td class="active1"><a href="https://meet.google.com/gps-zzyp-wya" target="_blank" class="link">Cnghe</a></td>
+			<td class="active1"><a href="https://meet.google.com/zed-ysow-dvo" target="_blank" class="link">Lý</a></td>
+			<td class="active1"><a href="https://meet.google.com/rsg-ppyi-gsu" target="_blank" class="link">Sinh</a></td>
+			<td class="active1"><a href="https://meet.google.com/ig-pdbd-aga" target="_blank" class="link">Lý</a></td>
+			<td class="active1"><a href="https://meet.google.com/nhm-vhfd-hck" target="_blank" class="link">Hóa</a></td>
+			<td class="active1"><a href="https://meet.google.com/jvy-ircd-huv" target="_blank" class="link">Anh</a></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="col1 ">
+				<div class="tiet1">
+					<div class="transition-container">
+						<div class="transition-child on">Tiết 5</div>
+						<div class="transition-child off">16h30 - 17h20</div>						
+					</div>
+				</div>
+			</td>
+			<td class="active1"><a href="https://meet.google.com/gps-zzyp-wya" target="_blank" class="link">Shl</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+
+		</tr>
+		<br>
+		<tr>
+			</tr>
+		<tr>
+			<td class="col1">
+				<div class="tiet1">
+					<div class="transition-container">
+						<div class="transition-child on">Sáng</div>
+						<div class="transition-child off">7h30-9h
+						</div>	
+			<td></td>
+			<td></td>
+			<td class="active">IELTS</td>
+			<td></td>
+			<td class="active">IELTS</td>
+			<td></td>
+			<td class="active" rowspan="3">Tin</td>
+		</tr>
+		<tr>
+			<td class="col1">
+				<div class="tiet1">
+					<div class="transition-container">
+						<div class="transition-child on">Sáng</div>
+						<div class="transition-child off">9h30 - 11h
+						</div>	
+			<td class="active">Tin</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="active">Tin</td>
+			<td></td>
+		</tr>
+		<tr>
+				<td class="col1">
+					<div class="tiet1">
+						<div class="transition-container">
+							<div class="transition-child on">Chiều</div>
+							<div class="transition-child off">19h30 - 21h
+							</div>
+			<td class="active">Vật lý</td>
+			<td class="active">Tiếng Anh</td>
+			<td class="active">Tiếng Anh</td>
+			<td class="active">Vật Lý</td>
+			<td ></td>
+			<td class="active">Tiếng Anh</td>
+		</tr>
+		<tr>
+					
+			<td class="col1">7h30 - 9h</td>
+			<td class="active">Toán</td>
+			<td class="active">Tin</td>
+			<td class="active">Toán</td>
+			<td class="active">Tin</td>
+			<td class="active">Toán</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</body>
+</html>	
