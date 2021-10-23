@@ -16,7 +16,7 @@ table, th,td{
 table{
 }
 th,td{
-	background-color:#916BBF;
+	background-color:#5158d6;
 	font-family: UVN Saigon;
 	font-size: 150%;
 	/* padding: 13px; */
@@ -29,10 +29,10 @@ th,td{
     color: #9da0d3;
 }
 .active{
-	background-color: #916BBF;
+	background-color: #5158d6;
 }
 .active1{
-	background-color: #916BBF;
+	background-color: #5158d6;
 }
 th{
 	background-color: #12188e;
